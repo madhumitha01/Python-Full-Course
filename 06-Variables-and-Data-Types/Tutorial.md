@@ -45,6 +45,9 @@ Boolean data consists of values True or False.
 
 **list:**  A list is an ordered collection of data with elements separated by a comma and enclosed within square brackets. Lists are mutable and can be modified after creation.
 
+**Lists are ordered collection of data**
+**Lists are mutable**
+
 🔹 What does "mutable" mean?
 If an object is mutable, it means:
 
