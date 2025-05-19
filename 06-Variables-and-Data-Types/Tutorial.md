@@ -88,7 +88,11 @@ Output:
 ## 5. Mapped data: dict
     
 
-**dict:** A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets. Dictionaries are immutable.
+**dict:** A dictionary is an unordered collection of data containing a key:value pair. The key:value pairs are enclosed within curly brackets. 
+
+Dictionaries are mutable.
+- Dictionary keys must be immutable and hashable.
+- Dictionary values are mutable.
 
 **Example:**
 
