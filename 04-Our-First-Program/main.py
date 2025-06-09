@@ -14,7 +14,8 @@ print("world")
 print("Hello", "world")
 
 # Combining both sep and end
-print("Python", "is", "fun", sep="*", end="!!!\n")
+print("Python", "is", "fun", sep="*", end="!!!\n") 
 print("Python", "is", "fun", sep="*", end="!!!")
 
+# Python*is*fun!!!
 # Python*is*fun!!!
