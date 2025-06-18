@@ -23,13 +23,19 @@ Done with the loop
 Done with the loop
 """
 
-# count = 5
-# while (count > 0):
-#   print(count)
-#   count = count - 1
-# else:
-#   print("I am inside else (or) I am outside while loop!")
+count = 5
+while (count > 0):
+  print(count)
+  count = count - 1
+else:
+  print("I am inside else (or) I am outside while loop!")
 
 # do {
   # loop body;
 # }while(condition);
+
+while True:
+  number = int(input("Enter a positive number: "))
+  print(number)
+  if not number > 0:
+    break
