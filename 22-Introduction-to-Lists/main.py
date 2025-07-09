@@ -60,3 +60,35 @@ print(l1[1][2:])
 
 # Assignment : Create a list which has varied elements in it like 
 # list, tuple and dictionary and try accessing the elemnts within them.
+
+
+# Traditional Way
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = []
+
+for item in names:
+    if "o" in item:
+        namesWith_O.append(item)
+
+print(namesWith_O)
+
+# List Comprehension
+
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = [item for item in names if "o" in item]
+print(namesWith_O)
+
+# Length greater than 4
+
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+names4 = [item for item in names if len(item)>4]
+print(names4)
+
+# Assignment: You are given a list of numbers.
+# Write a program that creates a new list containing 
+# the square of only the even numbers from the original list.
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# output 
+# sq_even_numbers = [4, 16, 36, 64, 100]

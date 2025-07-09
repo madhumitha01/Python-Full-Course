@@ -13,9 +13,26 @@ List = [Expression(item) for item in iterable if Condition]
 
 **Condition**: Condition checks if the item should be added to the new list or not. 
 
- 
+Basically, remember it as:
+```
+[what_you_want_to_add for each_item in original_list if condition]
+```
 
 ### Example 1: Accepts items with the small letter “o” in the new list 
+
+##### Traditional way:
+```python
+names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
+namesWith_O = []
+
+for item in names:
+    if "o" in item:
+        namesWith_O.append(item)
+
+print(namesWith_O)
+```
+
+##### Using List comprehension:
 ```python
 names = ["Milo", "Sarah", "Bruno", "Anastasia", "Rosa"]
 namesWith_O = [item for item in names if "o" in item]
